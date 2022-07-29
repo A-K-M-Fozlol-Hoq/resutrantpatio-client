@@ -86,3 +86,65 @@ You're about to initialize a Firebase project in this directory:
 
   G:\Web Development\Random Projects\tahmid vai\resturant-partio\client
 
+[debug] [2022-07-29T13:47:18.048Z] ----------------------------------------------------------------------
+[debug] [2022-07-29T13:47:18.051Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-07-29T13:47:18.051Z] CLI Version:   11.4.0
+[debug] [2022-07-29T13:47:18.051Z] Platform:      win32
+[debug] [2022-07-29T13:47:18.052Z] Node Version:  v16.14.0
+[debug] [2022-07-29T13:47:18.053Z] Time:          Fri Jul 29 2022 19:47:18 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-07-29T13:47:18.053Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-29T13:47:18.064Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-29T13:47:18.064Z] > authorizing via signed-in user (dev.onedemic@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\Web Development\Random Projects\tahmid vai\resturant-partio\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-29T13:47:25.403Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-07-29T13:47:26.110Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-07-29T13:47:26.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-07-29T13:52:05.442Z] ----------------------------------------------------------------------
+[debug] [2022-07-29T13:52:05.445Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-07-29T13:52:05.445Z] CLI Version:   11.4.0
+[debug] [2022-07-29T13:52:05.445Z] Platform:      win32
+[debug] [2022-07-29T13:52:05.445Z] Node Version:  v16.14.0
+[debug] [2022-07-29T13:52:05.452Z] Time:          Fri Jul 29 2022 19:52:05 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-07-29T13:52:05.452Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-29T13:52:05.460Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-29T13:52:05.461Z] > authorizing via signed-in user (dev.onedemic@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\Web Development\Random Projects\tahmid vai\resturant-partio\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-29T13:52:11.986Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-07-29T13:52:13.045Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-07-29T13:52:13.046Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
