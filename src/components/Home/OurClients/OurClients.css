@@ -1,0 +1,33 @@
+.our-clients-wrapper {
+  margin: 50px 0;
+} 
+.our-clients-wrapper .container{
+  
+  padding-bottom: 50px;
+}
+.our-clients-wrapper .btn {
+  background: #286a2d !important;
+  border: 1px solid #6ead40;
+  min-width: 40%;
+}
+.our-clients-wrapper .btn:hover {
+  background: #6ead40 !important;
+}
+.our-clients-wrapper img {
+  width: 50% !important;
+  margin-left: 25%;
+  /* width: 100%; */
+  width: auto;
+}
+.our-clients-wrapper .container {
+  background: rgb(110, 173, 64, 0.1);
+  border-radius: 20px;
+  margin: 50px auto;
+  height: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .our-clients-wrapper .align-items-center .col-md-6{
+    padding-bottom: 20px;
+  }
+}

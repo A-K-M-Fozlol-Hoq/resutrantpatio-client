@@ -1,0 +1,17 @@
+.about-us-wrapper .profile-image {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+.about-us-wrapper {
+  margin-bottom: -50px;
+  /* padding-bottom: 50px; */
+}
+@media screen and (max-width: 400px) {
+  .about-us-wrapper .profile-image {
+    width: 100%;
+  }
+  p {
+    text-align: center;
+  }
+}

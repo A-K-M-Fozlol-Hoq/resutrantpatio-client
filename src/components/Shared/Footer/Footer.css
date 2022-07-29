@@ -1,0 +1,46 @@
+.footer-wrapper .get_email {
+  text-align: center;
+}
+.footer-wrapper #subscribe {
+  height: 300px;
+}
+.footer-wrapper #subscriber h6 {
+  color: gray;
+}
+.footer-wrapper .footer-button {
+  margin-bottom: 5px;
+}
+.footer-wrapper .btn {
+  background: #6ead40 !important;
+  border: 1px solid #6ead40;
+  min-width: 40%;
+}
+.footer-wrapper .btn:hover {
+  background: #286a2d !important;
+}
+.get_email-bg {
+  background: rgb(110, 173, 64, 0.1);
+  border-radius: 20px;
+  margin: 50px auto;
+}
+.footer-wrapper footer h6 {
+  border-bottom: 2px solid #286a2d;
+}
+
+.footer-wrapper footer span:hover {
+  color: #286a2d;
+  transition: 1s;
+  cursor: pointer;
+}
+.footer-wrapper .useful-links p a,
+.footer-wrapper .footer-services p a{
+  text-decoration: none;
+}
+.footer-wrapper .useful-links p:hover a,
+.footer-wrapper .footer-services p:hover a{
+  color:#f66260 !important;
+}
+.footer-wrapper .useful-links p:hover,
+.footer-wrapper .footer-services p:hover{
+  color:#f66260 !important;
+}

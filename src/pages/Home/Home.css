@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Poppins:wght@200&family=Roboto+Condensed:wght@300&family=Titillium+Web:ital,wght@1,300&display=swap');
+
+.reaturant-and-hospitality-text{
+    font-size:35px;
+    font-family: 'Catamaran', sans-serif;
+}
+@media screen and (max-width: 600px) {
+    .reaturant-and-hospitality-text{
+        font-size:25px;
+    }
+  }
+/* 
+  .reaturant-and-hospitality-text:hover{
+    color:#f66260 !important;
+    background-color: #286a2d !important;
+    cursor: pointer;
+} */

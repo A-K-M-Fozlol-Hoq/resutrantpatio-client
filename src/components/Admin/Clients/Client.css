@@ -1,0 +1,52 @@
+.client-wrapper .all-logos {
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 800px;
+  margin: 0 auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.client-wrapper .single-logo {
+  border: 1px solid green;
+  border-radius: 20px;
+  position: relative;
+}
+.client-wrapper .single-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+.client-wrapper .single-logo:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+.client-wrapper .single-logo .delete-icon {
+  color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  display: none;
+}
+.client-wrapper .single-logo:hover .delete-icon {
+  display: block;
+}
+.client-wrapper .single-logo .delete-icon:hover {
+  color: red;
+}
+@media screen and (max-width: 1000px) {
+  .client-wrapper .all-logos {
+    width: 600px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 680px) {
+  .client-wrapper .all-logos {
+    width: 400px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}

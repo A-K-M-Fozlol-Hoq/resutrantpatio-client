@@ -1,0 +1,51 @@
+.admin-controller-wrapper .all-admins {
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 800px;
+  margin: 0 auto 0;
+}
+.admin-controller-wrapper .single-admin {
+  border: 1px solid green;
+  border-radius: 20px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+.admin-controller-wrapper .single-admin .p {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: contain;
+  padding: 10px 10px 0;
+}
+.admin-controller-wrapper .single-admin:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+.admin-controller-wrapper .single-admin .delete-icon {
+  color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  display: none;
+}
+.admin-controller-wrapper .single-admin:hover .delete-icon {
+  display: block;
+}
+.admin-controller-wrapper .single-admin .delete-icon:hover {
+  color: red;
+}
+@media screen and (max-width: 1000px) {
+  .admin-controller-wrapper .all-admins {
+    width: 600px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 680px) {
+  .admin-controller-wrapper .all-admins {
+    width: 400px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}

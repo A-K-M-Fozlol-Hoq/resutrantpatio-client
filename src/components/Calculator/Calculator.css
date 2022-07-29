@@ -1,0 +1,36 @@
+.calculator-wrapper {
+  padding: 50px;
+}
+.calculator-wrapper .single-option select {
+  margin-top: 5px;
+}
+.calculator-wrapper .single-option {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.calculator-wrapper .single-option span {
+  margin-top: 10px;
+}
+.calculator-wrapper .all-options {
+  width: 500px;
+  margin: 0 auto 0;
+}
+.calculator-wrapper .selected-image {
+  width: 30%;
+  margin: -30px 35% 0;
+}
+
+@media screen and (max-width: 650px) {
+  .calculator-wrapper .all-options {
+    width: 300px;
+  }
+  .calculator-wrapper .single-option {
+    display: block;
+  }
+  .calculator-wrapper .single-option select {
+    margin-top: 20px;
+  }
+  .calculator-wrapper .search-button {
+    margin-top: 30px;
+  }
+}

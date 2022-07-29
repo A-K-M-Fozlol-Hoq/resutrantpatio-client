@@ -1,0 +1,52 @@
+.select-option-wrapper {
+  margin-top: 50px;
+}
+.select-option-wrapper .select-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 70%;
+  margin-left: 15%;
+}
+.select-option-wrapper button {
+  background: #286a2d;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.select-option-wrapper button:hover {
+  background: #6ead40;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.select-option-wrapper button:active {
+  transform: scale(0.9);
+  transition: 0s;
+}
+@media screen and (max-width: 800px) {
+  .select-option-wrapper .select-menu {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .select-option-wrapper .select-menu {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .select-option-wrapper .select-menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .select-option-wrapper {
+    padding: 15px;
+  }
+}
+
+.select-option-wrapper button {
+  border: none;
+}

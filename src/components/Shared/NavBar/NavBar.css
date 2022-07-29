@@ -1,0 +1,38 @@
+.nav-wrapper img {
+  height: 50px;
+  width: 50px;
+  background: #286a2d !important;
+  border-radius: 0;
+}
+.nav-wrapper img:hover {
+  height: 50px;
+  width: 50px;
+  background: #fff !important;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.nav-wrapper ul li:hover a {
+  color: #f66260 !important;
+  transition: 0.5s;
+}
+.navbar {
+  padding: 0 50px;
+}
+.nav-wrapper li a {
+  color: #fff !important;
+}
+.nav-wrapper .main-logo {
+  min-height: 80px !important;
+  min-width: 80px !important;
+  max-height: 80px !important;
+  max-width: 80px !important;
+  width: 80px !important;
+  height: 80px !important;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-wrapper .dropdown-menu {
+    margin-left: 0 !important;
+  }
+}
